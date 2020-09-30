@@ -1,4 +1,4 @@
-FROM certbot/certbot:v0.21.1
+FROM certbot/certbot:latest
 
 RUN pip install certbot-dns-cloudflare
 
